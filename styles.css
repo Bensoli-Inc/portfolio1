@@ -48,7 +48,7 @@ body {
   
   background-color: rgb(18, 30, 39);
   color: white;
-  padding-left: 150px;
+  padding-left: 30px;
   padding-top: 100px;
   padding-bottom: 150px;
   display: flex;
@@ -186,7 +186,7 @@ margin-bottom: 5px;
   flex: 1;
   display: flex;
   flex-direction: column;
-  padding: 20px;
+  padding: 5px;
 }
 
 .linksfooter {
