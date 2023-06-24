@@ -2,10 +2,16 @@ body {
   margin-top: 75px;
   font-family: arial;
   background-color:  rgb(18, 30, 39);
-  margin-right: 0px;
-  padding: 0px;
+  display: flex;
+  fle-direction: column;
+  margin: 0 auto;
+  height: 100vh;
 }
 
+.main {
+  flex: 1;
+  overflow: scroll;
+} 
 @media (max-width: 800px) {
   .body {
     margin-right: 0px;
