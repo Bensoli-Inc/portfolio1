@@ -11,9 +11,6 @@ body {
   height: -webkit-fill-available;
  }
   
-.main {
-  overflow: scroll;
-} 
 @media (max-width: 800px) {
   .body {
     margin-right: 0px;
