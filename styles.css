@@ -20,7 +20,7 @@ body {
 .dp {
    width: 80px;
    margin-left: 15px;
-   
+   margin-top: 7px;
 }
 
 .dp1 {
@@ -48,33 +48,33 @@ body {
   
   background-color: rgb(18, 30, 39);
   color: white;
-  padding-top: 100px;
-  padding-bottom: 150px;    
+  padding-top: 80px;
+  padding-bottom: 120px; 
+  padding-left: 20px
 }
 
 .bigname {
-  font-size: 60px;
+  font-size: 55px;
 }
 
 .smallername {
-  font-size: 40px;
+  font-size: 35px;
 }
 
 .firstsentence {
   line-height: 35px;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 400;
   max-width: 500px;
   margin-bottom: 0;
 }
 
 .mediabuttons {
-  margin-top: 25px;
+  margin-top: 30px;
   margin-bottom: 30px;
   display: flex;
   flex-direction: row;
-  width: 300px;
-  
+  width: 300px; 
 }
 
 .mediabutton {
@@ -154,30 +154,30 @@ body {
   margin-bottom: 50px;
 }
 
-
-
-
 .contactMe {
-  height: 300px;
   background-color: rgb(18, 30, 39);
   color: white;
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
+@media (max-width: 650px) {
+  .contactMe {
+    grid-template-columns: 1fr 1fr;
+  }
+}
 .contacts {
   background-color: rgb(18, 30, 39);
-  flex: 1;
   display: flex;
   flex-direction: column;
-  padding: 5px;
+  padding: 15px;
 }
 
 .linksfooter {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  flex: 1;
+
 }
 
 .linksfooter a {
