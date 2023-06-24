@@ -186,3 +186,16 @@ body {
   cursor: pointer;
   text-decoration: none;
 }
+
+.logogrid {
+  display: grid
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5px
+}
+
+
+
+
+
+
+
