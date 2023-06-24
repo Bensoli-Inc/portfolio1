@@ -3,6 +3,7 @@ body {
   font-family: arial;
   background-color:  rgb(18, 30, 39);
   margin-right: 0px;
+  padding: 0px;
 }
 
 @media (max-width: 800px) {
