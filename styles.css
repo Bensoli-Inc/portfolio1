@@ -163,7 +163,7 @@ body {
 
 @media (max-width: 650px) {
   .contactMe {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
   }
 }
 .contacts {
@@ -187,11 +187,7 @@ body {
   text-decoration: none;
 }
 
-.logogrid {
-  display: grid
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 5px
-}
+
 
 
 
