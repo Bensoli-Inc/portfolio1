@@ -1,0 +1,204 @@
+body {
+  margin-top: 75px;
+  font-family: arial;
+  background-color:  rgb(18, 30, 39);;
+}
+
+.div1 {
+  height: 63px;
+  background-color: rgb(18, 30, 39);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 200;
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.dp {
+   width: 80px;
+   margin-left: 15px;
+   
+}
+
+.dp1 {
+  height: 59px;
+  padding: 2px;
+  border-radius: 30px;
+}
+
+.profile {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex: 1;
+  align-items: center;
+}
+
+.div1 a {
+  color: white;
+  margin-top: 10px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.introduction {
+  
+  background-color: rgb(18, 30, 39);
+  color: white;
+  padding-left: 150px;
+  padding-top: 100px;
+  padding-bottom: 150px;
+  display: flex;
+  flex-direction: column;
+    
+}
+
+.bigname {
+  font-size: 60px;
+}
+
+.smallername {
+  font-size: 40px;
+}
+
+.firstsentence {
+  line-height: 35px;
+  font-size: 20px;
+  font-weight: 400;
+  max-width: 500px;
+  margin-bottom: 0;
+}
+
+.mediabuttons {
+  margin-top: 25px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+  
+}
+
+.mediabutton {
+  background-color: transparent;
+  border-width: 1px;
+  margin-right: 8px;
+}
+
+
+.logo {
+  height: 40px;
+  border-radius: 20px;
+}
+
+.mySkills {
+  background-color: white;
+}
+
+.skillsdiv {
+  padding: 30px;
+}
+
+.skillstext {
+  color: black;
+  font-size: 40px;  
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.skillsimage {
+  width: 350px;
+  height: 400px;
+border-radius: 10px;
+margin-bottom: 5px;
+
+}
+
+.skillname {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.skillbutton {
+  padding: 7px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+.skillszone {
+  padding: 50px;
+  display: flex;
+  height: 20rem;
+  gap: 1rem;
+
+}
+
+
+
+.skillbox {
+  flex: 1;
+  background-size: auto 100%;
+  transition: all .8s cubic-bezier(0.25, 0.4, 0.45, 1.4);
+  margin-bottom: 20px; 
+  margin-top: 0px; 
+  background-color: brown;
+  border: solid;
+  border-width: 2px;
+  border-radius: 8px;
+  padding-left: 5px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.skillbox:hover {
+  flex: 3;
+}
+
+
+.myProjects {
+  height: 590px;
+  background-color: yellow;
+  color: black;
+  margin-bottom: 50px;
+}
+
+
+
+
+.contactMe {
+  height: 300px;
+  background-color: rgb(18, 30, 39);
+  color: white;
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.contacts {
+  background-color: rgb(18, 30, 39);
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.linksfooter {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex: 1;
+}
+
+.linksfooter a {
+  color: white;
+  margin-top: 10px;
+  cursor: pointer;
+  text-decoration: none;
+}
