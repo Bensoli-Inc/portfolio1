@@ -5,6 +5,12 @@ body {
   margin-right: 0px;
 }
 
+@media (max-width: 800px) {
+  .body {
+    margin-right: 0px;
+  }
+}
+
 .div1 {
   height: 63px;
   background-color: rgb(18, 30, 39);
