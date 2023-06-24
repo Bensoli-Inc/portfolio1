@@ -120,18 +120,20 @@ body {
 }
 
 .skillszone {
-  padding: 10px;
-  display: flex;
-  height: 20rem;
-  gap: 1rem;
-
+  padding: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 8px;
 }
 
-
+@media (max-width: 650px) {
+  .skillszone {
+    grid-template-columns: 1fr 1fr;
+  }
+}
 
 .skillbox {
   flex: 1;
-  transition: all .8s cubic-bezier(0.25, 0.4, 0.45, 1.4);
   margin-bottom: 20px; 
   margin-top: 0px; 
   background-color: brown;
@@ -144,11 +146,6 @@ body {
   text-align: center;
   align-items: center;
 }
-
-.skillbox:hover {
-  flex: 3;
-}
-
 
 .myProjects {
   height: 590px;
