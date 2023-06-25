@@ -152,6 +152,7 @@ body {
   text-align: center;
   align-items: center;
   transition: 0.8s;
+  cursor: pointer;
 }
 
 .skillbox:hover {
