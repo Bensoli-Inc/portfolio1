@@ -123,13 +123,13 @@ body {
   background-color: black;
   color: white;
   border: none;
+  border-radius: 10px;
 }
 
 .skillszone {
   padding: 30px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 8px;
+  display: flex;
+  gap: 1 rem;
 }
 
 @media (max-width: 650px) {
@@ -151,6 +151,11 @@ body {
   flex-direction: column;
   text-align: center;
   align-items: center;
+  transition: 0.8s;
+}
+
+.skillbox:hover {
+  flex: 3
 }
 
 .myProjects {
